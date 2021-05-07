@@ -1,0 +1,1 @@
+This is the codebase for the web front-end application of the Digitized Newspaper system we're building.
