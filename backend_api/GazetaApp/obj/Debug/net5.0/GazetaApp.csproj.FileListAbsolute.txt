@@ -7,10 +7,12 @@
 /home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/bin/Debug/net5.0/GazetaApp.dll
 /home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/bin/Debug/net5.0/ref/GazetaApp.dll
 /home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/bin/Debug/net5.0/GazetaApp.pdb
+/home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/bin/Debug/net5.0/Humanizer.dll
 /home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll
 /home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
 /home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll
 /home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll
 /home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll
 /home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll
 /home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll
