@@ -44,6 +44,8 @@ namespace GazetaApp
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "GazetaApp v1"));
             }
 
+            app.UseHsts();
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -54,6 +56,7 @@ namespace GazetaApp
             {
                 endpoints.MapControllers();
             });
+
         }
     }
 }
