@@ -2,7 +2,7 @@ Arguments:
   /snap/node/2336/bin/node /snap/node/2336/bin/yarn.js global dir
 
 PATH: 
-  /~/Downloads/node-v16.1.0-linux-x64/bin:/home/elshadai/.local/bin:/~/Downloads/node-v16.1.0-linux-x64/bin:/home/elshadai/anaconda3/condabin:/home/elshadai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+  /~/Downloads/node-v16.1.0-linux-x64/bin:/home/elshadai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 
 Yarn version: 
   1.16.0
