@@ -4,35 +4,124 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Gazeta</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    @RenderSection("Styles", false)
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Gazeta</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+    <div class="row">
+
+        @* side bar of the page*@
+        <aside class="col-4 col-md-2 pr-0 side-bar ">
+            <div class="mb-3 pt-3 pb-2 pl-2">
+                <button onclick="toggle()" class="btn ">
+                    <i class="fas fa-bars fa-lg"></i>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <a class="logo-text mt-4" asp-area="" asp-controller="Home" asp-action="Index">Gazeta</a>
+            </div>
+            <nav>
+                <ul class="side-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                            <i class="fas fa-home fa-lg" style="color:#6b696b"></i><span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                            <i class="fas fa-compass fa-lg" style="color:#6b696b"></i><span>Explore</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                            <i class="fas fa-heart fa-lg" style="color:#6b696b"></i><span>Favorite</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                            <i class="fas fa-bell fa-lg" style="color:#6b696b"></i><span>Subscription</span>
+                        </a>
+                    </li>
+                </ul>
+                <hr />
+                @* comment it is *@
+                <div id="subscription-section">
+                    <p>Subscription</p>
+                    <ul class="p-0">
+                        <li class="">
+                            <a class="" asp-controller="" asp-action="">
+                                <img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="circle profile image" />
+                                <span>Addis Zemen</span>
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        <li class="">
+                            <a class="" asp-controller="" asp-action="">
+                                <img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="circle profile image" />
+                                <span>Addis Zemen</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a class="" asp-controller="" asp-action="">
+                                <img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="circle profile image" />
+                                <span>Addis Zemen</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
+                <hr />
+                @* comment it it *@
+                <div id="explore-section">
+                    <p>More From Gazeta</p>
+                    <ul class="side-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">
+                                <i class="fas fa-briefcase fa-lg" style="color:#6b696b"></i><span>Bussiness</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">
+                                <i class="fas fa-landmark fa-lg" style="color:#6b696b"></i><span>Politics</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">
+                                <i class="fas fa-futbol fa-lg" style="color:#6b696b"></i><span>Sport</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">
+                                <i class="fas fa-flask fa-lg" style="color:#6b696b"></i><span>Science</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">
+                                <i class="fas fa-socks fa-lg" style="color:#6b696b"></i><span>Fashion</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+        @* content of the page *@
+        <div class="col-8 col-md-10 pb-3">
+            <div class="row bg-white border-bottom  pl-md-4 mb-3 pt-3 pb-2">
+                <form class="col-8  pr-md-4 mr-md-4">
+                    <div class="input-group">
+                        <input type="text" name="search-arg" class="form-control bg-light border-0 input-lg" placeholder="Search"
+                               aria-label="Search" aria-describedby="basic-addon2">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="ml-auto mr-md-4">
+                    <i class="fas fa-user-circle fa-2x"></i>
+                </div>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+            <main role="main">
+
+                @RenderBody()
+            </main>
+        </div>
+
     </div>
 
     <footer class="border-top footer text-muted">
@@ -43,6 +132,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/fontawesome/js/all.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
