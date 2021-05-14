@@ -1,6 +1,10 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+body{
+    overflow-y:hidden;
+    
+}
 a.navbar-brand {
   white-space: normal;
   text-align: center;
@@ -33,6 +37,30 @@ html {
   html {
     font-size: 16px;
   }
+    ::-webkit-scrollbar {
+        width: 13px;
+        height: 5px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: rgba(0.3,0.3,0.3,0.1);
+    }
+    aside {
+     
+        
+    }
+    aside:hover {
+        height: 100vh;
+        position: relative;
+        overflow-y: scroll;
+    }
+    main {
+        background-color: #f7f7f7;
+        height: 100vh;
+        position: relative;
+        overflow-y: scroll;
+        padding-bottom:8%;
+    }
     .logo-text {
         font-weight: bold;
         color: black;
@@ -106,17 +134,14 @@ button.accept-policy {
 
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
+
 
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
 }
 .footer {
-  position: absolute;
+
   bottom: 0;
   width: 100%;
   white-space: nowrap;
