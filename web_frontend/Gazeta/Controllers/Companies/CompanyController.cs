@@ -30,13 +30,13 @@ namespace Companies.Controllers
         }
 
         [HttpGet]
-        public ActionResult Create()
+        public ActionResult RegisterCompany()
         {
             return View();
         }
 
         [HttpPost]
-        public ActionResult Create(Company company)
+        public ActionResult RegisterCompany(Company company)
         {
             try
             {                
