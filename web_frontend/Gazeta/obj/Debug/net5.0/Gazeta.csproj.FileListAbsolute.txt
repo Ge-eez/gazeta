@@ -39,3 +39,4 @@ C:\Users\hp\source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta
 C:\Users\hp\source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.csproj.CopyComplete
 C:\Users\hp\source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.csprojAssemblyReference.cache
 C:\Users\hp\source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Explore\Explore.cshtml.g.cs
+C:\Users\hp\Source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Subscription\Index.cshtml.g.cs
