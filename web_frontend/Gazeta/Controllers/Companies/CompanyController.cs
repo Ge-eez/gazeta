@@ -24,10 +24,7 @@ namespace Companies.Controllers
 
         IFirebaseClient client;
 
-        public ActionResult Index()
-        {
-            return View();
-        }
+        
 
         [HttpGet]
         public ActionResult RegisterCompany()
