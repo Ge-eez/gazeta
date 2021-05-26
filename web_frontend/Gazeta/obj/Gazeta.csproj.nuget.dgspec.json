@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hp\\source\\C# project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj": {}
+    "C:\\Users\\Dagi's pc\\Documents\\3rd Year 1st Semester\\OOP II\\Final Project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hp\\source\\C# project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj": {
+    "C:\\Users\\Dagi's pc\\Documents\\3rd Year 1st Semester\\OOP II\\Final Project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hp\\source\\C# project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj",
+        "projectUniqueName": "C:\\Users\\Dagi's pc\\Documents\\3rd Year 1st Semester\\OOP II\\Final Project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj",
         "projectName": "Gazeta",
-        "projectPath": "C:\\Users\\hp\\source\\C# project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj",
-        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hp\\source\\C# project\\gazeta\\web_frontend\\Gazeta\\obj\\",
+        "projectPath": "C:\\Users\\Dagi's pc\\Documents\\3rd Year 1st Semester\\OOP II\\Final Project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj",
+        "packagesPath": "C:\\Users\\Dagi's pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dagi's pc\\Documents\\3rd Year 1st Semester\\OOP II\\Final Project\\gazeta\\web_frontend\\Gazeta\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Dagi's pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

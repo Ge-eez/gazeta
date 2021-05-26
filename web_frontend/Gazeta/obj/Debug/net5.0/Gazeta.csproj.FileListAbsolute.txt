@@ -39,3 +39,44 @@ C:\Users\hp\source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta
 C:\Users\hp\source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.csproj.CopyComplete
 C:\Users\hp\source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.csprojAssemblyReference.cache
 C:\Users\hp\source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Explore\Explore.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.dll
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\ref\Gazeta.dll
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.pdb
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\bin\Debug\net5.0\appsettings.json
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\bin\Debug\net5.0\Gazeta.exe
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\bin\Debug\net5.0\Gazeta.deps.json
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\bin\Debug\net5.0\Gazeta.runtimeconfig.json
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\bin\Debug\net5.0\Gazeta.runtimeconfig.dev.json
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\bin\Debug\net5.0\Gazeta.dll
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\bin\Debug\net5.0\ref\Gazeta.dll
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\bin\Debug\net5.0\Gazeta.pdb
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\bin\Debug\net5.0\Gazeta.Views.dll
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\bin\Debug\net5.0\Gazeta.Views.pdb
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.csprojAssemblyReference.cache
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.AssemblyInfoInputs.cache
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.AssemblyInfo.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.csproj.CoreCompileInputs.cache
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.RazorAssemblyInfo.cache
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.RazorAssemblyInfo.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\staticwebassets\Gazeta.StaticWebAssets.Manifest.cache
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\staticwebassets\Gazeta.StaticWebAssets.xml
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\scopedcss\bundle\Gazeta.styles.css
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.TagHelpers.input.cache
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.TagHelpers.output.cache
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.RazorCoreGenerate.cache
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Explore\Explore.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.RazorTargetAssemblyInfo.cache
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.RazorTargetAssemblyInfo.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.Views.pdb
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.genruntimeconfig.cache
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.csproj.CopyComplete

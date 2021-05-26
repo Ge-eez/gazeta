@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Gazeta</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    @RenderSection("Styles", false)
+</head>
+<body>
+    <div class="row">
+
+        @* side bar of the page*@
+        <aside class="col-4 col-md-2 pr-0 side-bar ">
+            <div class="mb-3 pt-3 pb-2 pl-2">
+                <button onclick="toggle()" class="btn ">
+                    <i class="fas fa-bars fa-lg"></i>
+                </button>
+                <a class="logo-text mt-4" asp-area="" asp-controller="Home" asp-action="Index">Gazeta</a>
+            </div>
+            <nav>
+                <ul class="side-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                            <i class="fas fa-home fa-lg" style="color:#6b696b"></i><span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                            <i class="fas fa-compass fa-lg" style="color:#6b696b"></i><span>Posts</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                            <i class="fas fa-heart fa-lg" style="color:#6b696b"></i><span>Profile</span>
+                        </a>
+                    </li>
+
+                </ul>
+                <hr />
+
+
+                @* comment it it *@
+                <div id="explore-section">
+                    <p>More</p>
+                    <ul class="side-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">
+                                <i class="fas fa-briefcase fa-lg" style="color:#6b696b"></i><span>Drafts</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+        </aside>
+        @* content of the page *@
+        <div class="col-8 col-md-10 pb-3">
+            <div class="row bg-white border-bottom  pl-md-4 mb-3 pt-3 pb-2">
+                <form class="col-8  pr-md-4 mr-md-4">
+                    <div class="input-group">
+                        <input type="text" name="search-arg" class="form-control bg-light border-0 input-lg" placeholder="Search"
+                               aria-label="Search" aria-describedby="basic-addon2">
+                        <button class="btn btn-primary" type="submit">
+                            <i class="fas fa-search fa-sm"></i>
+                        </button>
+                    </div>
+                </form>
+                <div class="ml-auto mr-md-4">
+                    <i class="fas fa-user-circle fa-2x"></i>
+                </div>
+            </div>
+            <main role="main">
+
+                @RenderBody()
+            </main>
+        </div>
+
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2021 - Gazeta - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/lib/fontawesome/js/all.min.js"></script>
+    <script src="~/vendor/jquery/jquery.min.js"></script>
+    <script src="~/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+
+    <script src="~/js/sb-admin-2.min.js"></script>
+
+
+    <script src="~/vendor/chart.js/Chart.min.js"></script>
+
+
+    <script src="~/js/demo/chart-area-demo.js"></script>
+    <script src="~/js/demo/chart-pie-demo.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
