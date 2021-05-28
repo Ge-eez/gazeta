@@ -40,7 +40,6 @@ C:\Users\hp\source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta
 C:\Users\hp\source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.csprojAssemblyReference.cache
 C:\Users\hp\source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Explore\Explore.cshtml.g.cs
 <<<<<<< HEAD
-<<<<<<< HEAD
 C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.dll
 C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\ref\Gazeta.dll
 C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.pdb
@@ -87,7 +86,6 @@ C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\w
 C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Dashboard\Dashboard.cshtml.g.cs
 C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Dashboard\posts.cshtml.g.cs
 C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Dashboard\Profile.cshtml.g.cs
-=======
 =======
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 C:\Users\hp\Source\C# project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Subscription\Index.cshtml.g.cs
@@ -386,7 +384,3 @@ C:\Users\hp\source\C# project\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\C
 C:\Users\hp\source\C# project\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Companies\Details.cshtml.g.cs
 C:\Users\hp\source\C# project\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Companies\Edit.cshtml.g.cs
 C:\Users\hp\source\C# project\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Companies\Index.cshtml.g.cs
-<<<<<<< HEAD
->>>>>>> bee92876254e3c215158062e78f93856b1c815ca
-=======
->>>>>>> bee92876254e3c215158062e78f93856b1c815ca
