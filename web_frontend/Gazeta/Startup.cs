@@ -53,10 +53,16 @@ namespace Gazeta
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+<<<<<<< HEAD
 
                  endpoints.MapControllerRoute(
                     name: "admin",
                     pattern: "{controller=Dashboard}/{action=Dashboard}/{id?}");
+=======
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "{controller=Company}/{action=RegisterCompany}/{id?}");
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
             });
 
         }

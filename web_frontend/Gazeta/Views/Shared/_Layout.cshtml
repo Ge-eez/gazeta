@@ -8,12 +8,12 @@
     @RenderSection("Styles", false)
 </head>
 <body>
-    <div class="row">
+    <div class="content">
 
         @* side bar of the page*@
-        <aside class="col-4 col-md-2 pr-0 side-bar ">
+        <aside class=" pr-0 side-bar " id="aside">
             <div class="mb-3 pt-3 pb-2 pl-2">
-                <button onclick="toggle()" class="btn ">
+                <button onclick="toggle()" class="btn " id="toggle-btn">
                     <i class="fas fa-bars fa-lg"></i>
                 </button>
                 <a class="logo-text mt-4" asp-area="" asp-controller="Home" asp-action="Index">Gazeta</a>
@@ -26,7 +26,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Explore">
                             <i class="fas fa-compass fa-lg" style="color:#6b696b"></i><span>Explore</span>
                         </a>
                     </li>
@@ -36,37 +36,13 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Subscription">
                             <i class="fas fa-bell fa-lg" style="color:#6b696b"></i><span>Subscription</span>
                         </a>
                     </li>
                 </ul>
                 <hr />
-                @* comment it is *@
-                <div id="subscription-section">
-                    <p>Subscription</p>
-                    <ul class="p-0">
-                        <li class="">
-                            <a class="" asp-controller="" asp-action="">
-                                <img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="circle profile image" />
-                                <span>Addis Zemen</span>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a class="" asp-controller="" asp-action="">
-                                <img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="circle profile image" />
-                                <span>Addis Zemen</span>
-                            </a>
-                        </li>
-                        <li class="">
-                            <a class="" asp-controller="" asp-action="">
-                                <img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="circle profile image" />
-                                <span>Addis Zemen</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <hr />
+
                 @* comment it it *@
                 <div id="explore-section">
                     <p>More From Gazeta</p>
@@ -99,11 +75,22 @@
                     </ul>
                 </div>
             </nav>
+            <footer class="border-top footer text-muted">
+                <div class="container">
+                    &copy; 2021 - Gazeta - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                </div>
+            </footer>
         </aside>
         @* content of the page *@
-        <div class="col-8 col-md-10 pb-3">
+        <div class="main-content pb-3">
             <div class="row bg-white border-bottom  pl-md-4 mb-3 pt-3 pb-2">
-                <form class="col-8  pr-md-4 mr-md-4">
+                <div class="col-3 pr-0 pb-2 pl-2" id="logo">
+                    <button onclick="toggle()" class="btn " id="toggle-btn">
+                        <i class="fas fa-bars fa-lg"></i>
+                    </button>
+                    <a class="logo-text mt-4" asp-area="" asp-controller="Home" asp-action="Index">Gazeta</a>
+                </div>
+                <form class="col-6  pr-md-4 mr-md-4">
                     <div class="input-group">
                         <input type="text" name="search-arg" class="form-control bg-light border-0 input-lg" placeholder="Search"
                                aria-label="Search" aria-describedby="basic-addon2">
@@ -124,11 +111,7 @@
 
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2021 - Gazeta - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

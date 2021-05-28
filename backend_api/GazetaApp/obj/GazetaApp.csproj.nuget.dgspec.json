@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/GazetaApp.csproj": {}
+    "/home/edenalem/Documents/Es Sachen/C#/Gazeta_Project/gazeta/backend_api/GazetaApp/GazetaApp.csproj": {}
   },
   "projects": {
-    "/home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/GazetaApp.csproj": {
+    "/home/edenalem/Documents/Es Sachen/C#/Gazeta_Project/gazeta/backend_api/GazetaApp/GazetaApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/GazetaApp.csproj",
+        "projectUniqueName": "/home/edenalem/Documents/Es Sachen/C#/Gazeta_Project/gazeta/backend_api/GazetaApp/GazetaApp.csproj",
         "projectName": "GazetaApp",
-        "projectPath": "/home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/GazetaApp.csproj",
-        "packagesPath": "/home/elshadai/.nuget/packages/",
-        "outputPath": "/home/elshadai/Documents/Projects/Personal/gazeta/backend_api/GazetaApp/obj/",
+        "projectPath": "/home/edenalem/Documents/Es Sachen/C#/Gazeta_Project/gazeta/backend_api/GazetaApp/GazetaApp.csproj",
+        "packagesPath": "/home/edenalem/.nuget/packages/",
+        "outputPath": "/home/edenalem/Documents/Es Sachen/C#/Gazeta_Project/gazeta/backend_api/GazetaApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/elshadai/.nuget/NuGet/NuGet.Config"
+          "/home/edenalem/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/120/sdk/5.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

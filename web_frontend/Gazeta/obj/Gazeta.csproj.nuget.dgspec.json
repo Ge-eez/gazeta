@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Dagi's pc\\Documents\\3rd Year 1st Semester\\OOP II\\Final Project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Dagi's pc\\Documents\\3rd Year 1st Semester\\OOP II\\Final Project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj",
         "packagesPath": "C:\\Users\\Dagi's pc\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Dagi's pc\\Documents\\3rd Year 1st Semester\\OOP II\\Final Project\\gazeta\\web_frontend\\Gazeta\\obj\\",
+=======
+    "C:\\Users\\hp\\source\\C# project\\web_frontend\\Gazeta\\Gazeta.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hp\\source\\C# project\\web_frontend\\Gazeta\\Gazeta.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\source\\C# project\\web_frontend\\Gazeta\\Gazeta.csproj",
+        "projectName": "Gazeta",
+        "projectPath": "C:\\Users\\hp\\source\\C# project\\web_frontend\\Gazeta\\Gazeta.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\source\\C# project\\web_frontend\\Gazeta\\obj\\",
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dagi's pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +53,32 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

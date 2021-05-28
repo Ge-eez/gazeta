@@ -3,14 +3,14 @@
     "",
     "\\web_frontend",
     "\\web_frontend\\Gazeta",
-    "\\web_frontend\\Gazeta\\Models",
     "\\web_frontend\\Gazeta\\obj",
     "\\web_frontend\\Gazeta\\Properties",
     "\\web_frontend\\Gazeta\\Views",
+    "\\web_frontend\\Gazeta\\Views\\Companies",
     "\\web_frontend\\Gazeta\\Views\\Dashboard",
     "\\web_frontend\\Gazeta\\Views\\Home",
     "\\web_frontend\\Gazeta\\Views\\Shared"
   ],
-  "SelectedNode": "\\web_frontend\\Gazeta\\Controllers\\DashboardController.cs",
+  "SelectedNode": "\\web_frontend\\Gazeta\\Views\\Companies",
   "PreviewInSolutionExplorer": false
 }

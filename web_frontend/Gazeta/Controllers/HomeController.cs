@@ -23,7 +23,11 @@ namespace Gazeta.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Explore()
+        {
+            return View();
+        }
+        public IActionResult Subscription()
         {
             return View();
         }
