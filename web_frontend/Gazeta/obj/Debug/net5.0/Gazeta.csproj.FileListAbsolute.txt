@@ -80,3 +80,8 @@ C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\w
 C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.Views.pdb
 C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.genruntimeconfig.cache
 C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Gazeta.csproj.CopyComplete
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Shared\companyLayout.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Dashboard\addPost.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Dashboard\Dashboard.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Dashboard\posts.cshtml.g.cs
+C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\obj\Debug\net5.0\Razor\Views\Dashboard\Profile.cshtml.g.cs

@@ -48,10 +48,17 @@ namespace Gazeta
 
             app.UseEndpoints(endpoints =>
             {
+
+                
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+                 endpoints.MapControllerRoute(
+                    name: "admin",
+                    pattern: "{controller=Dashboard}/{action=Dashboard}/{id?}");
             });
+
         }
     }
 }
