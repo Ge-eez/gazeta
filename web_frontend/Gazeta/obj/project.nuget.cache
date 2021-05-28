@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "wXNjjgmYR8+M4Eu6hunXFg1MnGoj+rqTuf/FFfwbire1idt5MdsjD4UX9R6rpxWLeItsbxoJiqslrAIJ6Bl7dw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Dagi's pc\\Documents\\3rd Year 1st Semester\\OOP II\\Final Project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj",
@@ -8,6 +9,10 @@
 =======
   "dgSpecHash": "dlmfzMWSnrmwfvzIWraAmxm7lp0SoNY+AfNbmX8W+OqB8Bu/QUsBVTYv4innaLDVtTlYOKw77YkG7BY/nUtbDg==",
   "success": true,
+=======
+  "dgSpecHash": "dlmfzMWSnrmwfvzIWraAmxm7lp0SoNY+AfNbmX8W+OqB8Bu/QUsBVTYv4innaLDVtTlYOKw77YkG7BY/nUtbDg==",
+  "success": true,
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
   "projectFilePath": "C:\\Users\\hp\\source\\C# project\\web_frontend\\Gazeta\\Gazeta.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -135,6 +140,9 @@
     "C:\\Users\\hp\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
+<<<<<<< HEAD
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
+=======
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
   "logs": []
 }

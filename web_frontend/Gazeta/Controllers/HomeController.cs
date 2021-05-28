@@ -24,6 +24,13 @@ namespace Gazeta.Controllers
         }
 
         public IActionResult Explore()
+<<<<<<< HEAD
+=======
+        {
+            return View();
+        }
+        public IActionResult Subscription()
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
         {
             return View();
         }

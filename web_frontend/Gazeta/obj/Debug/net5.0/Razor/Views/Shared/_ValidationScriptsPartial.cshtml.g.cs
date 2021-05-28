@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\Views\Shared\_ValidationScriptsPartial.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "4b5e5ef4ebf7354cc35c7dacddd6bc3068f19a47"
+=======
+#pragma checksum "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Shared\_ValidationScriptsPartial.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "4b5e5ef4ebf7354cc35c7dacddd6bc3068f19a47"
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
 #pragma checksum "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Shared\_ValidationScriptsPartial.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "4b5e5ef4ebf7354cc35c7dacddd6bc3068f19a47"
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -18,7 +22,11 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 1 "C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\Views\_ViewImports.cshtml"
+=======
+#line 1 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\_ViewImports.cshtml"
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
 #line 1 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\_ViewImports.cshtml"
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -29,7 +37,11 @@ using Gazeta;
 #nullable disable
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 2 "C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\Views\_ViewImports.cshtml"
+=======
+#line 2 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\_ViewImports.cshtml"
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
 #line 2 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\_ViewImports.cshtml"
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -69,7 +81,11 @@ using Gazeta.Models;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4b5e5ef4ebf7354cc35c7dacddd6bc3068f19a474086", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4b5e5ef4ebf7354cc35c7dacddd6bc3068f19a473939", async() => {
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4b5e5ef4ebf7354cc35c7dacddd6bc3068f19a473939", async() => {
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -87,7 +103,11 @@ using Gazeta.Models;
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n");
 <<<<<<< HEAD
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4b5e5ef4ebf7354cc35c7dacddd6bc3068f19a475125", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4b5e5ef4ebf7354cc35c7dacddd6bc3068f19a474978", async() => {
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4b5e5ef4ebf7354cc35c7dacddd6bc3068f19a474978", async() => {
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca

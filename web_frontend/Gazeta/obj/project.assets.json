@@ -7156,11 +7156,19 @@
     "version": "1.0.0",
     "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Dagi's pc\\Documents\\3rd Year 1st Semester\\OOP II\\Final Project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj",
       "projectName": "Gazeta",
       "projectPath": "C:\\Users\\Dagi's pc\\Documents\\3rd Year 1st Semester\\OOP II\\Final Project\\gazeta\\web_frontend\\Gazeta\\Gazeta.csproj",
       "packagesPath": "C:\\Users\\Dagi's pc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Dagi's pc\\Documents\\3rd Year 1st Semester\\OOP II\\Final Project\\gazeta\\web_frontend\\Gazeta\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\hp\\source\\C# project\\web_frontend\\Gazeta\\Gazeta.csproj",
+      "projectName": "Gazeta",
+      "projectPath": "C:\\Users\\hp\\source\\C# project\\web_frontend\\Gazeta\\Gazeta.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\source\\C# project\\web_frontend\\Gazeta\\obj\\",
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
       "projectUniqueName": "C:\\Users\\hp\\source\\C# project\\web_frontend\\Gazeta\\Gazeta.csproj",
       "projectName": "Gazeta",

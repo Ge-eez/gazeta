@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\Views\Home\Privacy.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "d8ddb6bffa5a9b264bf8f89038bf03c234083fd3"
+=======
+#pragma checksum "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Home\Privacy.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "d8ddb6bffa5a9b264bf8f89038bf03c234083fd3"
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
 #pragma checksum "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Home\Privacy.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "d8ddb6bffa5a9b264bf8f89038bf03c234083fd3"
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -18,7 +22,11 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 1 "C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\Views\_ViewImports.cshtml"
+=======
+#line 1 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\_ViewImports.cshtml"
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
 #line 1 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\_ViewImports.cshtml"
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -29,7 +37,11 @@ using Gazeta;
 #nullable disable
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 2 "C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\Views\_ViewImports.cshtml"
+=======
+#line 2 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\_ViewImports.cshtml"
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
 #line 2 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\_ViewImports.cshtml"
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -47,7 +59,11 @@ using Gazeta.Models;
         {
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 1 "C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\Views\Home\Privacy.cshtml"
+=======
+#line 1 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Home\Privacy.cshtml"
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
 #line 1 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Home\Privacy.cshtml"
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -60,7 +76,11 @@ using Gazeta.Models;
             WriteLiteral("<h1>");
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 4 "C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\Views\Home\Privacy.cshtml"
+=======
+#line 4 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Home\Privacy.cshtml"
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
 #line 4 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Home\Privacy.cshtml"
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca

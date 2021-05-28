@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 #pragma checksum "C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\Views\Home\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "684d2a6b84a8445ec0b26e74c83d1fbb1b20a75f"
+=======
+#pragma checksum "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Home\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "234099dc3fb9302e5219f8fab8e6af55867b0d5f"
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
 #pragma checksum "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Home\Index.cshtml" "{ff1816ec-aa5e-4d10-87f7-6f4963833460}" "234099dc3fb9302e5219f8fab8e6af55867b0d5f"
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -18,7 +22,11 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 1 "C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\Views\_ViewImports.cshtml"
+=======
+#line 1 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\_ViewImports.cshtml"
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
 #line 1 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\_ViewImports.cshtml"
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -29,7 +37,11 @@ using Gazeta;
 #nullable disable
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 2 "C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\Views\_ViewImports.cshtml"
+=======
+#line 2 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\_ViewImports.cshtml"
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
 #line 2 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\_ViewImports.cshtml"
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -39,7 +51,11 @@ using Gazeta.Models;
 #line hidden
 #nullable disable
 <<<<<<< HEAD
+<<<<<<< HEAD
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"684d2a6b84a8445ec0b26e74c83d1fbb1b20a75f", @"/Views/Home/Index.cshtml")]
+=======
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"234099dc3fb9302e5219f8fab8e6af55867b0d5f", @"/Views/Home/Index.cshtml")]
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"234099dc3fb9302e5219f8fab8e6af55867b0d5f", @"/Views/Home/Index.cshtml")]
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -79,7 +95,11 @@ using Gazeta.Models;
             DefineSection("Styles", async() => {
                 WriteLiteral("\r\n    ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "684d2a6b84a8445ec0b26e74c83d1fbb1b20a75f4358", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "234099dc3fb9302e5219f8fab8e6af55867b0d5f4945", async() => {
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "234099dc3fb9302e5219f8fab8e6af55867b0d5f4945", async() => {
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -98,7 +118,11 @@ using Gazeta.Models;
                 __tagHelperExecutionContext = __tagHelperScopeManager.End();
                 WriteLiteral("\r\n\r\n    ");
 <<<<<<< HEAD
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "684d2a6b84a8445ec0b26e74c83d1fbb1b20a75f5540", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "234099dc3fb9302e5219f8fab8e6af55867b0d5f6127", async() => {
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "234099dc3fb9302e5219f8fab8e6af55867b0d5f6127", async() => {
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -121,7 +145,11 @@ using Gazeta.Models;
             WriteLiteral("\r\n");
 #nullable restore
 <<<<<<< HEAD
+<<<<<<< HEAD
 #line 7 "C:\Users\Dagi's pc\Documents\3rd Year 1st Semester\OOP II\Final Project\gazeta\web_frontend\Gazeta\Views\Home\Index.cshtml"
+=======
+#line 7 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Home\Index.cshtml"
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
 =======
 #line 7 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Home\Index.cshtml"
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
@@ -131,6 +159,7 @@ using Gazeta.Models;
 #line default
 #line hidden
 #nullable disable
+<<<<<<< HEAD
 <<<<<<< HEAD
             WriteLiteral(@"
 
@@ -307,6 +336,19 @@ using Gazeta.Models;
 #nullable disable
             WriteLiteral(@"            <div class=""card col-md-3"">
 
+=======
+            WriteLiteral("\r\n<div>\r\n    <section class=\"row mx-2\">\r\n");
+#nullable restore
+#line 13 "C:\Users\hp\source\C# project\web_frontend\Gazeta\Views\Home\Index.cshtml"
+         for (int i = 0; i < 20; i++)
+        {
+
+#line default
+#line hidden
+#nullable disable
+            WriteLiteral(@"            <div class=""card col-md-3"">
+
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
                 <div class=""card-body"">
                     <img src=""https://media.istockphoto.com/photos/breaking-news-world-news-with-map-backgorund-picture-id1182477852?k=6&m=1182477852&s=612x612&w=0&h=X-UipiiX5xcMw9dBhzKZWG7UcWjEOARl2s_oTVV8rtE="" alt=""error"" />
                     <div class=""mt-3"">
@@ -368,6 +410,9 @@ using Gazeta.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n    </section>\r\n\r\n</div>\r\n\r\n\r\n\r\n");
+<<<<<<< HEAD
+>>>>>>> bee92876254e3c215158062e78f93856b1c815ca
+=======
 >>>>>>> bee92876254e3c215158062e78f93856b1c815ca
         }
         #pragma warning restore 1998
