@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dlmfzMWSnrmwfvzIWraAmxm7lp0SoNY+AfNbmX8W+OqB8Bu/QUsBVTYv4innaLDVtTlYOKw77YkG7BY/nUtbDg==",
+  "dgSpecHash": "/dL2SN8kIW2CgEnRfZPUO+pu9sNsy7ET0snMfvTuENi74+PehNyGzxLzNqZO30aJhktTD4brVQPCTh8iHsqPtQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\source\\C# project\\web_frontend\\Gazeta\\Gazeta.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,8 @@
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\npgsql\\5.0.5\\npgsql.5.0.5.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.6\\npgsql.entityframeworkcore.postgresql.5.0.6.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
