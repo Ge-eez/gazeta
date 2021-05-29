@@ -1,4 +1,6 @@
 using Gazeta.Data;
+using Gazeta.Data.MClass;
+using Gazeta.Data.MInterface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +30,8 @@ namespace Gazeta
             services.AddControllersWithViews();
             services.AddDbContext<GazetaWebContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("GazetaWebContext")));
+            services.AddScoped<INewsRepository, NewsRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
