@@ -1,5 +1,8 @@
-﻿using Gazeta.Models;
+﻿using Gazeta.Data;
+using Gazeta.Data.MInterface;
+using Gazeta.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -13,14 +16,20 @@ namespace Gazeta.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        public GazetaWebContext Context { get; }
+        public INewsRepository NewsRepository { get; }
+
+        public HomeController(ILogger<HomeController> logger, GazetaWebContext context, INewsRepository newsRepository)
         {
             _logger = logger;
+            Context = context;
+            NewsRepository = newsRepository;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+
+            return View(NewsRepository.LatestNews());
         }
 
         public IActionResult Explore()

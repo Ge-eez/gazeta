@@ -7,16 +7,19 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Gazeta.Data;
 using Gazeta.Models;
+using Gazeta.Data.MInterface;
 
 namespace Gazeta.Controllers
 {
     public class NewsController : Controller
     {
         private readonly GazetaWebContext _context;
+        private readonly INewsRepository NewsRepository;
 
-        public NewsController(GazetaWebContext context)
+        public NewsController(GazetaWebContext context, INewsRepository newsRepository)
         {
             _context = context;
+            NewsRepository = newsRepository;
         }
 
         // GET: News
@@ -33,8 +36,7 @@ namespace Gazeta.Controllers
                 return NotFound();
             }
 
-            var news = await _context.News
-                .FirstOrDefaultAsync(m => m.Id == id);
+            var news = NewsRepository.NewsDetail(id);
             if (news == null)
             {
                 return NotFound();
@@ -58,8 +60,8 @@ namespace Gazeta.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(news);
-                await _context.SaveChangesAsync();
+
+                NewsRepository.CreateNews(news);
                 return RedirectToAction(nameof(Index));
             }
             return View(news);
