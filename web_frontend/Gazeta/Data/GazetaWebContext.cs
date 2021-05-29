@@ -18,10 +18,10 @@ namespace Gazeta.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Company> Companies { get; set; }
         public DbSet<Subscription> Subscriptions { get; set; }
-
+        public DbSet<Account> Accounts { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<News>().HasKey(x => x.Id);
+            modelBuilder.Entity<Account>().HasKey(x => x.Email);
             base.OnModelCreating(modelBuilder);
 
             modelBuilder.Entity<User>().HasKey(x => x.Email);
