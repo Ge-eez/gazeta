@@ -14,5 +14,6 @@ namespace Gazeta.Models
         public string Company { get; set; }
         public DateTime PublishDate { get; set; }
         public int Likes { get; set; }
+        public string Gener { get; set; }
     }
 }
