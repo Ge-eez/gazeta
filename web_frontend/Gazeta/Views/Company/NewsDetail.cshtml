@@ -1,0 +1,81 @@
+@model Gazeta.Models.News
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+@{Layout="../Shared/_CompanyLayout.cshtml";}
+
+
+
+<div class="container-fluid">   
+
+ <div class="row">                        
+    <div class="col-xl-8 col-lg-7 ml-auto mr-auto ">
+        <div class="card shadow mb-4 ">
+            
+            <div
+                class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">News Detail</h6>
+                <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    
+                </div>
+            </div>
+            
+            <div class="card-body">
+                    <div class="container">
+
+<div class="my-5">
+    <h1 class="text-center">@Html.DisplayFor(modelItem => modelItem.Headline)</h1>
+</div>
+
+
+<div class="card ml-3 my-5"  >
+    <div class="row g-0">
+        <div class="col-md-18 pl-0 no-gutters ">
+            <div class="card-body">
+                @if (Model.ImageURL != null) {                                            
+                    <img src="@("~/image/" + Model.ImageURL)" asp-append-version="true" class="img-fluid " style="width: 300px; height:300px;" />
+                }
+            </div>
+        
+            <div class="card-body">
+                <p class="card-text">
+                    @Html.DisplayFor(modelItem => modelItem.Article)
+                </p>
+
+                <p class="card-text">
+                    <small class="text-muted">@Html.DisplayFor(modelItem => modelItem.PublishDate)</small>
+                </p>
+            </div>
+
+            <div class="card-body">            
+                <a type="button" class="btn btn-outline-primary   waves-effect mr-3 my-5 " asp-action="Edit" asp-route-id="@Model.NewsId"><i class="fas fa-edit "
+                aria-hidden="true"></i></a>
+                <a type="button" class="btn btn-outline-primary  waves-effect " asp-action="Index" ><i class="fas fa-arrow-circle-left "
+                aria-hidden="true"></i></a>
+
+            </div>
+        </div>
+        
+    </div>
+</div>
+        
+            </div>
+
+            </div>
+            </div>
+        </div>        
+ </div>
+ 
+</div>
+
+
+
+
+
+

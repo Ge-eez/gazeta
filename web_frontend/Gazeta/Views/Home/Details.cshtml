@@ -1,0 +1,73 @@
+﻿@model Gazeta.Models.News
+
+@section Styles{
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="~/css/home.css" />
+    <link rel="stylesheet" href="~/css/detail.css" />
+
+}
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+ 
+}
+
+@*replace with the code below*@
+<div id="main-content">
+    <h1 id="headline"> @Model.Headline</h1>
+
+    <div id="news-info">
+        <div>
+            <span id="company-name">@Model.CompanyName  </span>
+            <span id="publish-date"><i class="far fa-clock"></i> @Model.PublishDate / </span>
+            <span id="view"><i class="fas fa-eye"></i> @Model.Likes  </span>
+        </div>
+        <div id="company">
+            
+            @if (ViewBag.subscribed == "subscribed")
+            {
+                <form asp-action="Unsubscribe" asp-route-id="@Model.NewsId">
+
+                    <button type="submit" class="btn " onclick="subscribed()" id="subscribe">Unsubscribe</button>
+                    <i class="far fa-bell"></i>
+                </form>
+            }
+            else
+            {
+                <form asp-action="Subscribe" asp-route-id="@Model.NewsId">
+
+                    <button type="submit" class="btn btn-danger" onclick="subscribed()" id="subscribe">Subscribe</button>
+                    <i class="far fa-bell"></i>
+                </form>
+            }
+
+
+        </div>
+    </div>
+    <hr />
+    @if (Model.ImageURL != null)
+    {
+        <img src="@("~/image/" + Model.ImageURL)" asp-append-version="true" />
+    }
+    <article>
+        
+        @Model.Article
+    </article>
+</div>
+<script>
+    function subscribed() {
+        var subscribeBtn = document.getElementById("subscribe");
+        if (subscribeBtn.classList.contains("btn-danger")) subscribeBtn.innerHTML = "Subscribed";
+        else subscribeBtn.innerHTML = "Subscribe";
+
+        subscribeBtn.classList.toggle("btn-danger");
+
+
+    }
+</script>
+
+

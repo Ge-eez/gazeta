@@ -1,0 +1,114 @@
+@model Gazeta.Models.News
+
+@{
+    ViewData["Title"] = "Index";
+
+}
+
+@{Layout="../Shared/_CompanyLayout.cshtml";}
+
+
+
+
+
+
+<div class="container-fluid">
+
+                    <div class="main-content-container px-4 container-fluid">
+                        <div class="page-header py-4 no-gutters row">
+                            <div
+                                class="ml-sm-auto mr-sm-auto text-center text-md-left mb-sm-0 col-12 col-sm-4 col-md-12">
+                                
+                                <h3 class="page-title">Company Profile</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="mb-4 pt-3 card card-small">
+                                    <div class="border-bottom text-center card-header">
+                                        <div class="mb-3 mx-auto"><img 
+                                                src="./img/addis.jpg" alt="Addis Zemen" width="200">
+                                        </div>
+                                        <h4 class="mb-0">Company Name</h4><span class="text-muted  mb-2
+                                           btn btn-outline-primary btn-sm btn-pill">  Subscribers </span>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        
+                                        <li class="p-4 list-group-item"><strong
+                                                class="text-muted d-block mb-2">Description</strong><span>Addis Zemen is an Ethiopian Amharic newspaper, published by the federal government.It is based in Addis Ababa and is currently published by the Ethiopian Press Agency. On Sundays, the paper provides its readers with extensive news about children in the country in terms of cultural activities.</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="mb-4 card card-small">
+                                    <div class="border-bottom card-header">
+                                        <h6 class="m-0">Account Details</h6>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li class="p-3 list-group-item">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <form class="">
+                                                        <div class="form-row">
+                                                            <div class="form-group col-md-6"><label
+                                                                    for="feFirstName">Company Name</label><input
+                                                                    id="feFirstName" placeholder="Company Name"
+                                                                    class="form-control" value="Name"></div>
+                                                           
+                                                        <div class="form-row">
+                                                            <div class="form-group col-md-6"><label
+                                                                    for="feEmail">@Model.CompanyEmail</label><input type="email"
+                                                                    id="feEmail" placeholder="Email Address"
+                                                                    autocomplete="email" class="form-control"
+                                                                    value=@Model.CompanyEmail></div>
+                                                            <div class="form-group col-md-6"><label
+                                                                    for="fePassword">Password</label><input
+                                                                    type="password" id="fePassword"
+                                                                    placeholder="Password"
+                                                                    autocomplete="current-password" class="form-control"
+                                                                    @* value="EX@MPL#P@$$w0RD"></div> *@
+                                                                </div>
+                                                        </div>
+                                                        <div class="form-group"><label
+                                                                for="feAddress">Address</label><input id="feAddress"
+                                                                placeholder="Address" class="form-control"
+                                                                value="1234 Main St."></div>
+                                                        <div class="form-row">
+                                                            <div class="form-group col-md-6"><label
+                                                                    for="feCity">City</label><input id="feCity"
+                                                                    placeholder="City" class="form-control"></div>
+                                                            <div class="form-group col-md-4"><label
+                                                                    for="feInputState">State</label><select
+                                                                    id="feInputState"
+                                                                    class="form-control custom-select">
+                                                                    <option>Choose...</option>
+                                                                    <option>...</option>
+                                                                </select></div>
+                                                            <div class="form-group col-md-2"><label
+                                                                    for="feZipCode">Zip</label><input id="feZipCode"
+                                                                    placeholder="Zip" class="form-control"></div>
+                                                        </div>
+                                                        <div class="form-row">
+                                                            <div class="form-group col-md-12"><label
+                                                                    for="feDescription">Description</label><textarea
+                                                                    id="feDescription" rows="5"
+                                                                    class="form-control"></textarea></div>
+                                                        
+                                                        <div class="form-group col-md-4">
+                                                        <button class="btn btn-outline-primary">Update
+                                                            
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>

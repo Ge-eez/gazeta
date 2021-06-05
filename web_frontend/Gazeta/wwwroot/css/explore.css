@@ -14,10 +14,16 @@ section {
     margin: 1px 0px;
 }
 
-    .card:hover {
-        background-color: #bfbbbb;
-    }
-
+.card:hover {
+    background-color: #bfbbbb;
+}
+.card-body a {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 2em;
+    margin: -2em;
+}
 #special {
 }
 
@@ -26,8 +32,9 @@ section {
     width: 95%;
 }
 
-    .single-post img {
-    }
+.single-post img {
+
+}
 
 @media(max-width:576px) {
     .icon {

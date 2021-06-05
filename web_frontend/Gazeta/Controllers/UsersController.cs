@@ -12,9 +12,9 @@ namespace Gazeta.Controllers
 {
     public class UsersController : Controller
     {
-        private readonly GazetaWebContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public UsersController(GazetaWebContext context)
+        public UsersController(ApplicationDbContext context)
         {
             _context = context;
         }
@@ -34,7 +34,7 @@ namespace Gazeta.Controllers
             }
 
             var user = await _context.Users
-                .FirstOrDefaultAsync(m => m.Email == id);
+                .FirstOrDefaultAsync(m => m.UserEmail == id);
             if (user == null)
             {
                 return NotFound();
@@ -88,7 +88,7 @@ namespace Gazeta.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(string id, [Bind("Name,Email,Password")] User user)
         {
-            if (id != user.Email)
+            if (id != user.UserEmail)
             {
                 return NotFound();
             }
@@ -102,7 +102,7 @@ namespace Gazeta.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!UserExists(user.Email))
+                    if (!UserExists(user.UserEmail))
                     {
                         return NotFound();
                     }
@@ -125,7 +125,7 @@ namespace Gazeta.Controllers
             }
 
             var user = await _context.Users
-                .FirstOrDefaultAsync(m => m.Email == id);
+                .FirstOrDefaultAsync(m => m.UserEmail == id);
             if (user == null)
             {
                 return NotFound();
@@ -147,7 +147,7 @@ namespace Gazeta.Controllers
 
         private bool UserExists(string id)
         {
-            return _context.Users.Any(e => e.Email == id);
+            return _context.Users.Any(e => e.UserEmail == id);
         }
     }
 }

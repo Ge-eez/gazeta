@@ -1,38 +1,51 @@
-﻿@model Gazeta.Models.News
+@model Gazeta.Models.News
 
 @{
     ViewData["Title"] = "Edit";
-    Layout = "~/Views/Shared/_CompanyLayout.cshtml";
 }
 
-<h1>Edit</h1>
 
-<h4>News</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
+@{Layout="../Shared/_CompanyLayout.cshtml";}
+
+
+<div class="container-fluid">   
+
+ <div class="row">                        
+    <div class="col-xl-8 col-lg-7 ml-auto mr-auto ">
+        <div class="card shadow mb-4 ">
+            
+            <div
+                class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                <h6 class="m-0 font-weight-bold text-primary">Edit News</h6>
+                <div class="dropdown no-arrow">
+                    <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                    </a>
+                    
+                </div>
+            </div>
+            
+            <div class="card-body">
+                    <div class="container">
+
+<form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="NewsId" />
             <div class="form-group">
                 <label asp-for="Headline" class="control-label"></label>
                 <input asp-for="Headline" class="form-control" />
                 <span asp-validation-for="Headline" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Image" class="control-label"></label>
-                <input asp-for="Image" class="form-control" />
-                <span asp-validation-for="Image" class="text-danger"></span>
-            </div>
+            @* <div class="form-group">
+                <label asp-for="ImageURL" class="control-label"></label>
+                <input asp-for="ImageURL" class="form-control" />
+                <span asp-validation-for="ImageURL" class="text-danger"></span>
+            </div> *@
             <div class="form-group">
                 <label asp-for="Article" class="control-label"></label>
                 <input asp-for="Article" class="form-control" />
                 <span asp-validation-for="Article" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Company" class="control-label"></label>
-                <input asp-for="Company" class="form-control" />
-                <span asp-validation-for="Company" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="PublishDate" class="control-label"></label>
@@ -40,21 +53,30 @@
                 <span asp-validation-for="PublishDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Likes" class="control-label"></label>
-                <input asp-for="Likes" class="form-control" />
-                <span asp-validation-for="Likes" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
-    </div>
+        
+                <a type="button" class="btn btn-outline-primary  waves-effect " asp-action="Index" ><i class="fas fa-arrow-circle-left "
+                aria-hidden="true"></i></a>
+
+
+
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+            </div>
+            </div>
+        </div>        
+ </div>
 </div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
+
+
+
+
+
+
+

@@ -6,10 +6,16 @@
     <title>@ViewData["Title"] - Gazeta</title>
     <link rel="stylesheet" href="~/css/site.css" />
     @RenderSection("Styles", false)
+    @{
+
+
+        TempData.Keep("email");
+        TempData.Keep("name");
+    }
 </head>
 <body>
     <div class="content">
-
+        
         @* side bar of the page*@
         <aside class=" pr-0 side-bar " id="aside">
             <div class="mb-3 pt-3 pb-2 pl-2">
@@ -22,7 +28,7 @@
                 <ul class="side-nav">
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
-                            <i class="fas fa-home fa-lg" style="color:#6b696b"></i><span>Home</span>
+                            <i class="fas fa-home fa-lg" style="color:#6b696b"></i><span>Latest News</span>
                         </a>
                     </li>
                     <li class="nav-item">
@@ -30,11 +36,11 @@
                             <i class="fas fa-compass fa-lg" style="color:#6b696b"></i><span>Explore</span>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    @*<li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">
                             <i class="fas fa-heart fa-lg" style="color:#6b696b"></i><span>Favorite</span>
                         </a>
-                    </li>
+                    </li>*@
                     <li class="nav-item">
                         <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Subscription">
                             <i class="fas fa-bell fa-lg" style="color:#6b696b"></i><span>Subscription</span>
@@ -48,28 +54,33 @@
                     <p>More From Gazeta</p>
                     <ul class="side-nav">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Gener" asp-route-topic="Business">
                                 <i class="fas fa-briefcase fa-lg" style="color:#6b696b"></i><span>Bussiness</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Gener" asp-route-topic="Politics">
                                 <i class="fas fa-landmark fa-lg" style="color:#6b696b"></i><span>Politics</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Gener" asp-route-topic="Sport">
                                 <i class="fas fa-futbol fa-lg" style="color:#6b696b"></i><span>Sport</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Gener" asp-route-topic="Science">
                                 <i class="fas fa-flask fa-lg" style="color:#6b696b"></i><span>Science</span>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="" asp-action="">
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Gener" asp-route-topic="Fashion">
                                 <i class="fas fa-socks fa-lg" style="color:#6b696b"></i><span>Fashion</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-controller="Home" asp-action="Gener" asp-route-topic="Technology">
+                                <i class="fas fa-socks fa-lg" style="color:#6b696b"></i><span>Tech</span>
                             </a>
                         </li>
                     </ul>
@@ -77,7 +88,7 @@
             </nav>
             <footer class="border-top footer text-muted">
                 <div class="container">
-                    &copy; 2021 - Gazeta - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                    &copy; 2021 - Gazeta - <a asp-area="" asp-controller="" asp-action=""></a>
                 </div>
             </footer>
         </aside>
@@ -90,18 +101,25 @@
                     </button>
                     <a class="logo-text mt-4" asp-area="" asp-controller="Home" asp-action="Index">Gazeta</a>
                 </div>
-                <form class="col-6  pr-md-4 mr-md-4">
+                <form class="col-6  pr-md-4 mr-md-4" asp-action="Search">
                     <div class="input-group">
-                        <input type="text" name="search-arg" class="form-control bg-light border-0 input-lg" placeholder="Search"
+                        <input type="text" name="searchArg" class="form-control bg-light border-0 input-lg" placeholder="Search"
                                aria-label="Search" aria-describedby="basic-addon2">
                         <button class="btn btn-primary" type="submit">
+
                             <i class="fas fa-search fa-sm"></i>
                         </button>
                     </div>
                 </form>
                 <div class="ml-auto mr-md-4">
-                    <i class="fas fa-user-circle fa-2x"></i>
+                    <form asp-action="Logout">
+                        <button type="submit" class="btn btn-dark">Logout</button>
+                    </form>
+
                 </div>
+            </div>
+            <div id="pop-up">
+
             </div>
             <main role="main">
 

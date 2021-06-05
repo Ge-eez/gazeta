@@ -3,13 +3,13 @@
 .slider {
     width:100%;
     display: flex;
-    justify-content: space-around;
+    
     padding-bottom:1%;
 }
 .slider .items{
     display:flex;
     flex-direction:column;
-    
+    margin:0px 0px 5px 5px;
 }
 .slider .items img{
     width:70px;
@@ -22,7 +22,7 @@
 .content{
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-between
+    
 }
 .card{
     width:230px;

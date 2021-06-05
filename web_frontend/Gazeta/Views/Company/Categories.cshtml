@@ -1,0 +1,86 @@
+@model IEnumerable<Gazeta.Models.News>
+
+@{
+    ViewData["Title"] = "Category";
+
+}
+
+@{Layout="../Shared/_CompanyLayout.cshtml";}
+
+
+                <div class="container-fluid">   
+              
+
+                    <div class="row">                        
+                        <div class="col-xl-8 col-lg-7 ml-auto mr-auto ">
+                            <div class="card shadow mb-4 ">
+                             
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">@ViewBag.category News</h6>
+                                    <div class="dropdown no-arrow">
+                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
+                                        </a>
+                                       
+                                    </div>
+                                </div>
+                              
+                                <div class="card-body">
+                                        <div class="container">
+                   
+
+                @foreach (var item in Model) {       
+                    var articleItem = item.Article;
+                    @if (item.Article.Length > 30){
+                        articleItem = item.Article.Substring(0, 30 % item.Article.Length) + "....";
+                    } 
+                    
+                    <div class="card ml-3 my-5"  >
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                    @if (item.ImageURL != null) {                                            
+                                        <img src="@("~/image/" + item.ImageURL)" asp-append-version="true" class="img-fluid " style="width: 300px; height:300px;" />
+                                    }
+                            </div>
+                            <div class="col-md-6 pl-0 no-gutters ">
+                                <div class="card-body">
+                                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Headline)</h5>
+                                    <p class="card-text"> 
+                                        @Html.DisplayFor(modelItem => articleItem)
+                                    </p>
+                                    <p class="card-text">
+                                        <a asp-action="NewsDetail" asp-route-id="@item.NewsId">Read More</a> 
+                                    </p>
+                                  
+                                    <p class="card-text">
+                                        <small class="text-muted">@Html.DisplayFor(modelItem => item.PublishDate)</small>
+                                       
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 py-5 ">
+                              
+                               <a type="button" class="btn btn-outline-primary   waves-effect mr-3 my-5 " asp-action="Edit" asp-route-id="@item.NewsId"><i class="fas fa-edit "
+                                aria-hidden="true"></i></a>
+                               <a type="button" class="btn btn-outline-danger  waves-effect " asp-action="Delete" asp-route-id="@item.NewsId"><i class="fas fa-trash "
+                                aria-hidden="true"></i></a>
+
+ 
+                            </div>
+                        </div>
+                    </div>
+        
+            }
+            </div>
+
+            </div>
+            </div>
+        </div>        
+        
+    </div>  
+    
+
+</div>
+

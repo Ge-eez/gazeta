@@ -28,9 +28,29 @@ namespace Gazeta
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<GazetaWebContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("GazetaWebContext")));
+            //services.AddDbContext<GazetaWebContext>(options =>
+            //    options.UseSqlServer(Configuration.GetConnectionString("GazetaWebContext")));
             services.AddScoped<INewsRepository, NewsRepository>();
+            services.AddScoped<IUserAccount, UserAccount>();
+            services.AddScoped<ISubscriptionRepository, SubscriptionRepository>();
+
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlServer(
+                    Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDatabaseDeveloperPageExceptionFilter();
+
+            //services.AddScoped<INewsRepository, NewsRepository>();
+            //services.AddScoped<IUserAccount, UserAccount>();
+            //services.AddScoped<ISubscriptionRepository, SubscriptionRepository>();
+
+
+            //services.AddControllersWithViews();
+            //services.AddControllersWithViews()
+            //    .AddJsonOptions(o =>
+            //    {
+            //        o.JsonSerializerOptions.PropertyNameCaseInsensitive = true;
+            //        o.JsonSerializerOptions.PropertyNamingPolicy = null;
+            //    });
 
         }
 

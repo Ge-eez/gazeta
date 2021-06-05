@@ -4,34 +4,48 @@
 
 .card {
     border: none;
-    padding: 2% 1%;
+    padding: 0% 0% 1% 0%;
+/*    background-color: #f7f7f7;*/
+    max-height:350px;
+    margin:2px 0px;
 }
 
-    .card .card-body > img {
-        width: 250px;
-        height: 150px;
-    }
+.card .card-body  > img {
+    margin:0;
+    width: 250px;
+    height: 120px;
+}
+.card .card-body > div > #headline{
+    display:flex;
+    margin:0;
+    padding:0;
+}
+.card .card-body > div > #headline > img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 5%;
+}
 
-    .card .card-body > div > img {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        float: left;
-        margin-right: 5%;
-    }
+.card .card-body > div > #headline > span {
+    font-size: 16px;
+}
 
-    .card .card-body > div > span {
-        font-size: 16px;
-    }
+#post-info {
+    padding: 1% 1% 0% 18%;
+    margin: 0;
+    display:flex;
+    flex-direction:column;
+}
 
-    .card .card-body > div > h6 {
-        padding: 10% 1% 0% 18%;
-        margin: 0;
-    }
+#post-info #company{
+    font-weight:600;
+}
+.card-text{
+    float:right;
+}
 
-    .card .card-body > div > div {
-        padding: 0% 1% 0% 18%;
-    }
 
 @media (max-width: 576px) {
     html {

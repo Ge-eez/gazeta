@@ -1,0 +1,15 @@
+﻿@model IEnumerable<Gazeta.Models.Subscription>
+@{
+    ViewData["Title"] = "GetSubscribed";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>GetSubscribed</h1>
+
+@foreach (var item in Model)
+{
+    <span>@item.CompanyName</span>
+    <span>@item.UserEmail</span>
+  
+}
+

@@ -1,0 +1,42 @@
+﻿@section Styles{
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/login.css" />
+}
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+}
+
+
+<div id="login">
+    <h3 class="text-center text-white pt-5">Register form</h3>
+    <div class="container">
+        <div id="login-row" class="row justify-content-center align-items-center">
+            <div id="login-column" class="col-md-6">
+                <div id="login-box" class="col-md-12">
+                    <form method="POST" class="form" id="login-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name" class="form-control" autocomplete="off"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" class="form-control" autocomplete="off"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" class="form-control" autocomplete="off"/>
+                        </div>
+
+
+                        <div id="login-link" class="text-right">
+                            <a asp-action="Login" class="text-info">Login here</a>
+                        </div>
+                        <input type=submit value=Register class="btn btn-info btn-md">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
